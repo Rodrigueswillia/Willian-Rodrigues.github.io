@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(68, 65, 65);
+}
+
+.foto1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pot {
+    width: 200px;
+    height: 150px;
+    background-color: #f0f0f0;
+    margin: 10px;
+    text-align: center;
+    line-height: 150px;
+}
+
+
+.text {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+.botao{
+    margin-left: 150px;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    background: rgb(90, 124, 89);
+    color: blue;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: rgb(14, 230, 7);
+    color: rgb(21, 21, 180);
+    box-shadow: rgb(14, 230, 7) 0px 0px 10px 10px ;
+}

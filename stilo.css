@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(68, 65, 65);
+}
+
+.inicio {
+    display: inline-flex;
+    background-color: rgb(68, 65, 65);
+    width: auto;
+    margin: 100px;
+    margin-top: -10px;
+
+
+}
+
+.text {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    color: white;
+    text-align: left;
+}
+
+.sobre {
+    margin: 50px;
+    color: white;
+    text-align: left;
+    text-align: justify;
+}
+
+.img {
+    height: 300px;
+    margin: 20px;
+    margin-top: 80px;
+    margin-right: 100px;
+    border-radius: 20px;
+    box-shadow: rgb(40, 5, 240) 0px 0px 20px 20px ;
+    border: black solid 1px;
+}
+
+.contato{
+    display:inline;    
+    width:50px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+    
+}
+.contato:hover{
+    background: rgb(14, 230, 7);
+    color: rgb(21, 21, 180);
+    box-shadow: rgb(14, 230, 7) 0px 0px 7px 7px ;
+}
+
+.botao{
+    margin-left: 150px;
+    margin-top: -80px;
+    padding: 15px;
+    border-radius: 20px;
+    background: rgb(90, 124, 89);
+    color: blue;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: rgb(14, 230, 7);
+    color: rgb(21, 21, 180);
+    box-shadow: rgb(14, 230, 7) 0px 0px 10px 10px ;
+}
+
+
+
+@media only screen and (max-width: 750px) {
+    .inicio {
+        display: block;
+    }
+    .img{
+        margin-top: -20px;
+        margin-left: 150px;
+
+    }
+}
+    
+  
