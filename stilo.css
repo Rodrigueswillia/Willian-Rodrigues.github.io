@@ -75,14 +75,39 @@
 
 
 @media only screen and (max-width: 750px) {
-    .inicio {
-        display: block;
+    * {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(68, 65, 65);
     }
-    .img{
-        margin-top: -20px;
-        margin-left: 150px;
+    
+    .inicio {    
+            display: block;
+            background-color: rgb(68, 65, 65);
+            width: auto;
+            margin: auto;
+            margin-top: 0;       
+        
+        
+    }
+
+    .img {
+        height: 300px;
+        margin: 20px;
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: 80px;
+        border-radius: 20px;
+        box-shadow: rgb(40, 5, 240) 0px 0px 20px 20px ;
+        border: black solid 1px;
+    
 
     }
-}
-    
+    .contatos{
+        margin-left: 90px;
+    }
+    .menu{
+        margin: 30px 0 0 0;
+    }
+}  
   
